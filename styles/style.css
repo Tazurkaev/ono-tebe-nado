@@ -304,6 +304,8 @@
 
 .footer__menu-list {
     text-align: center;
+    list-style-type: none;
+    width: 240px;
 }
 
 .footer__menu-link {
@@ -319,11 +321,6 @@
 
 .footer__menu-link_active {
     border-bottom: none;
-}
-
-.footer__menu-list {
-    list-style-type: none;
-    width: 240px;
 }
 
 .footer__social-list {

@@ -39,7 +39,7 @@
     height: 105px;
 }
 
-.address{
+.address {
     margin-right: 8px;
 }
 
@@ -163,7 +163,7 @@
     padding: 0 891px 27px 40px;
 }
 
-.lots__card-list{
+.lots__card-list {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
@@ -323,6 +323,7 @@
 
 .footer__menu-list {
     list-style-type: none;
+    width: 240px;
 }
 
 .footer__social-list {
@@ -336,11 +337,6 @@
 
 .footer__social-link {
     text-decoration: none;
-
-}
-
-.footer__menu-list {
-    width: 240px;
 }
 
 .footer__social-icon {

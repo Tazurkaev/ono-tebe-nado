@@ -70,10 +70,7 @@
 
 .overlay {
     position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
+    inset: 0;
     opacity: 0.6;
     background: #000;
     z-index: 0;
@@ -185,16 +182,18 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 334px;
-    height: 563px;
+    max-width: 334px;
+    width: 100%;
+    min-height: 563px;
     padding: 48px 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+
 }
 
 .card__title {
@@ -232,17 +231,11 @@
 }
 .card_type_book {
     background-image: url(../images/card-lot-02.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 
 .card_type_picture {
     background-image: url(../images/card-lot-03.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 .about {
@@ -259,7 +252,6 @@
     background-color: #000;
     width: 240px;
     height: 240px;
-
 }
 
 .about__logo-image {
@@ -324,12 +316,9 @@
 }
 
 .footer__social-list {
-    list-style-type: none;
-}
-
-.footer__social-list-item {
     display: flex;
     gap: 48px;
+    list-style-type: none;
 }
 
 .footer__social-link {
